@@ -31,7 +31,7 @@ def version():
 setup(
     name='bottle-rest-serializer',
     version=version(),
-    packages=['truckpad'],
+    packages=['truckpad.bottle'],
     description='JSON serializer suited for REST apis developed with BottlePy',
     long_description=read('README.md'),
     long_description_content_type="text/markdown",
