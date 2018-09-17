@@ -10,7 +10,7 @@ build:
     - python3 setup.py sdist bdist_wheel
   artifacts:
     paths:
-      - dist/aws_lambda_wsgi*
+      - dist/*
 
 deploy to pypi:
   stage: deploy
