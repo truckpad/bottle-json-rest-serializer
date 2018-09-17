@@ -29,7 +29,7 @@ def version():
 
 
 setup(
-    name='truckpad',
+    name='bottle-rest-serializer',
     version=version(),
     packages=['truckpad'],
     description='JSON serializer suited for REST apis developed with BottlePy',
@@ -37,7 +37,7 @@ setup(
     long_description_content_type="text/markdown",
     author='Marcos Araujo Sobrinho',
     author_email='marcos.sobrinho@truckpad.com.br',
-    url='https://github.com/truckpad/bottle-json-rest-serializer',
+    url='https://github.com/truckpad/bottle-rest-serializer',
     install_requires=read('requirements.txt').strip().split('\n'),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
